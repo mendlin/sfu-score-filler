@@ -54,7 +54,7 @@ for dir in Dir['a4/*'].select {|f| File.directory? f}
 
 	puts `gcc -o a4mark cmpt130a4mark.c student.c -std=c99`
 	pause
-	# puts `./a4mark #{student_name}`
+	puts `./a4mark #{student_name}`
 
 	puts "----Grading-----"
 
